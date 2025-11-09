@@ -6,11 +6,12 @@ http://localhost:4000/api/users
 
 Команды для cmd
 
+
 Коммандная строка
 1. POST — создать пользователя
 
-curl -X POST http://localhost:4000/api/users \
-  -H "Content-Type: application/json" \
+curl -X POST http://localhost:4000/api/users ^
+  -H "Content-Type: application/json" ^
   -d "{\"username\": \"Ivan\", \"age\": 28, \"hobbies\": [\"airsoft\", \"fishing\"]}"
 
 2. GET — получить всех пользователей
